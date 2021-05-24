@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navigation{
+    background-color: black;
+    color: antiquewhite;
+}
+
+.navigation nav ul li a{
+    color: antiquewhite;
+}
+
+
+.img{
+    background-image: url("img/food2.jpg");
+    height: 234px;
+    width: 100%;
+    background-repeat: no-repeat;
+    /* background-size: 100% 100%; */
+    background-position:right top ;
+}
+
+.vertical_img{
+    width: 100%;
+    height: 200px;
+    overflow-y: auto;
+    background: url("img/food3.jpg") no-repeat;
+    color: lightgray;
+    font-size: 20px;
+}
